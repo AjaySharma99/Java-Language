@@ -1,0 +1,11 @@
+Java programming language is mainly designed to overcome the disadvantages of C and C++ and to develop internet applications by achieving platform independence.
+
+Java comes in three different editions, allowing us to develop three different types of applications. The three different editions are
+JSE (java standard edition)
+JEE (java enterprise edition)
+JME (java micro edition)
+These three different types of editions allow us to develop three different types of applications. They are as follows:
+Standalone/Desktop application
+Enterprise / Distributed / Internet application
+Device application
+

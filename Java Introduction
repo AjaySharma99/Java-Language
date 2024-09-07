@@ -9,3 +9,27 @@ Standalone/Desktop application
 Enterprise / Distributed / Internet application
 Device application
 
+What is Platform Dependent?
+The programs or applications compiled on one platform (operating system) can be executed on the same type of operating 
+system. Still, they cannot be executed on other types of operating systems, which are called platform-independent 
+applications.
+
+Platform Independent:
+If the applications complied code can run on different types of OS irrespective of the OS where it is compiled,
+then such applications are called platform-independent applications. The programming language used for developing 
+such types of applications is the platform-independent programming language. Java is a platform-independent
+programming language because the Java program compiled code can execute (run) on any OS.
+
+In this case, when the source code is compiled, the compiler generates intermediate code (byte code) rather 
+than machine code, which is not specific to any OS. The intermediate code can be carried and executed on any machine 
+provided by a software called JVM which is responsible for converting intermediate code into machine code
+
+What is Byte Code?
+Java programs compiled code is called byte code. The Java compiler (javac) generates a byte code (intermediate code) when the Java code is compiled.
+
+Byte code is an intermediate language (IL) code.
+Byte code is a virtual machine code.
+Byte code is a platform-independent code.
+Byte code is the collection of mnemonics (MOVE, LOAD, ADD ETC); these byte codes are only understood by JVM.
+Every byte code occupies 1 byte.
+

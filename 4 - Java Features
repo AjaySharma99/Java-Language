@@ -1,0 +1,100 @@
+" Java Features "
+-----------------------
+
+Java is simple and familiar:         Java is Portable:              Java is architecturally neutral:
+Java is Secured:                     Java is Robust:                Java is Strongly-Typed:
+Java is Distributed:                 Java is Multithreaded:         Java is Dynamic:
+Java is Object-Oriented:             Java is Compiled and Interpreted:
+Java is Platform Independent :       Automatic Memory Management :
+
+Java is simple and familiar:
+=============================
+Java is simple because java simplifies the programmer’s job by avoiding certain features of c and C++. Java avoids
+explicit memory management. Memory management in java is automatic. It is done by JVM. So there are no chances of
+memory leakage There is no pointer in java. Java is familiar because it is modeled on the Cand C++ Language. Java uses
+many features of C and C++, therefore java codes look like C++ codes. We can say java is a simplified version of C++.
+
+Java is Portable:
+========================
+Portability allows the programmer to write the same code for different machines (operating systems). 
+Java provides portability in two ways
+Source code portability
+Byte code portability
+In Java, we can write the source code as well as the byte code in different OS and also get the output.
+Whereas in the case of C and C++ there is only source code portability.
+
+Java is architecturally neutral:
+==================================
+The behavior of java programs doesn’t change when we move from one system to another which means it will provide 
+the same output in every machine because in java memory layout decisions are not made at compile time, it is made
+at run time by JVM. But in the case of C and C++ programs, the behavior changes when we move the program from one
+system to another.
+
+Java is Secured:
+=======================
+Java is secured because of the two reasons
+There is no pointer in java. A pointer in java is called a restricted pointer means there is no Pointer Arithmetic.
+Java programs are executed in a secured environment called JVM. JVM will provide security to the java programs.
+
+Java is Robust:
+=======================
+Robust means strong. Java is a strong Type Checking Language having strict Type Checking during both compilation 
+time and execution time which allows us to develop both error-free applications and programs.
+
+Java is Strongly-Typed:
+=========================
+The types of the used variables must be pre-defined and conversion to other objects is relatively strict.
+
+Java is Distributed:
+=========================
+Java provides a set of APIs which allows users to develop distributed applications. It means java language
+is used for developing distributed applications whose resources are shared by more than one client.
+An application or program whose resources are shared by more than one client is called a distributed 
+application. As java is used for developing such applications. So, java is a distributed programming language.
+
+Java is Multithreaded:
+=========================
+A process is divided into several small parts known as threads or lightweight processes. Sending multiple
+threads to the processor for processing is known as Multi-Threading. Multi-threading means handling multiple 
+tasks simultaneously. For example, we can listen to music while scrolling a page and at the same time we can 
+download an application from the internet on a computer. Java supports multithreaded programming.
+
+Java is Compiled and Interpreted:
+===================================
+We know a programming language is either compiled or interpreted. But java combines both approaches. 
+That’s why java is called a two-stage system.
+
+First java compiler JAVAC translates source code into an intermediate code known as byte code. 
+But codes are not machine instructions. So in the second stage, this byte code is interpreted by the java interpreter
+(JVM) in java. As a result machine instructions will be generated which are directly executed by the machine. Hence
+we are saying java is both interpreted and compiled language.
+
+Java is Object-Oriented:
+=============================
+Except for the primitive data types, all elements in Java are objects. Object-oriented is not a programming 
+language, it is a programming technique or concept, or principle which defines a set of rules and regulations 
+for organizing the data and instructions. The concepts provided by oops are as follows
+
+Encapsulation
+Abstraction
+Polymorphism
+Inheritance
+The programming language supports these four features known as an object-oriented programming language.
+Java supports these four features so java is object-oriented.
+
+Java is Platform Independent :
+=================================
+Many languages are compatible with only one platform. Java was specifically designed so that it would run on any 
+computer, regardless if it was running Windows, Linux, Mac, Unix, or any of the other operating systems.
+
+Automatic Memory Management :
+==================================
+Java manages memory allocation and de-allocation for creating new objects. The program does not have direct access
+to memory. The so-called garbage collector automatically deletes objects to which no active pointer exists.
+
+Java definition based on these features:
+Java is just a simple, secure, robust, portable, platform-independent, architectural neutral, multithreaded,
+object-oriented programming language with a strong type exception handling mechanism for developing distributed, 
+dynamically extensible programs
+
+

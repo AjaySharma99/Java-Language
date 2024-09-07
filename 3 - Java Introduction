@@ -1,6 +1,8 @@
-Java programming language is mainly designed to overcome the disadvantages of C and C++ and to develop internet applications by achieving platform independence.
+Java programming language is mainly designed to overcome the disadvantages of C and C++ and to develop internet
+applications by achieving platform independence.
 
-Java comes in three different editions, allowing us to develop three different types of applications. The three different editions are
+Java comes in three different editions, allowing us to develop three different types of applications. The three 
+different editions are
 JSE (java standard edition)
 JEE (java enterprise edition)
 JME (java micro edition)
@@ -25,7 +27,8 @@ than machine code, which is not specific to any OS. The intermediate code can be
 provided by a software called JVM which is responsible for converting intermediate code into machine code
 
 What is Byte Code?
-Java programs compiled code is called byte code. The Java compiler (javac) generates a byte code (intermediate code) when the Java code is compiled.
+Java programs compiled code is called byte code. The Java compiler (javac) generates a byte code (intermediate code) 
+when the Java code is compiled.
 
 Byte code is an intermediate language (IL) code.
 Byte code is a virtual machine code.

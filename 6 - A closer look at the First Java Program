@@ -1,0 +1,18 @@
+Step 1 --->>>>    public class FirstProgram{  
+
+This is the first line of our java program. Every java application must have at least one class definition that consists of a class keyword followed by the class name.
+When I say the keyword, it means that it should not be changed, we should use it as it is. However, the class name can be anything.
+I have made the class public by using the public access modifier, I will cover the access modifier in a separate post, all you need to know now is that a java file 
+can have any number of classes but it can have only one public class and the file name should be same as the public class name.
+
+Step 2 --->>>>   public static void main(String args[])
+
+public: This makes the main method public which means that we can call the method from outside the class.
+static: We do not need to create an object for static methods to run. They can run themselves.
+void: It does not return anything.
+main: It is the method name. This is the entry point method from which the JVM can run your program.
+(String[] args): Used for command-line arguments that are passed as strings. 
+
+Step 3 --->>>>  System.out.println(“Hello World”);
+
+This method prints the contents inside the double quotes into the console and inserts a newline after.

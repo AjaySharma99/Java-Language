@@ -1,0 +1,55 @@
+Environment Setup for Java Application Development step by step
+Download and Install Java JDK8
+This Java Development Kit (JDK) allows you to code and run Java programs. It’s possible that you install multiple JDK versions on the same PC.
+But it’s recommended that you install only the latest version.
+Download and Install JDK8 in Windows
+Accept License Agreement
+Download the latest Java JDK for your version (32 or 64 bit) of java for Windows.
+Once the download is complete, run the exe for install JDK. Click Next.
+Select the PATH for Java installation and click next.
+
+Once the installation is complete click Close.
+
+Set Environment Variables in Java: Path and Classpath
+The PATH variable gives the location of executables like javac, java, etc. It is possible to run a program without specifying the PATH but you will need to give full path of executable like C:\Program Files\Java\jdk-13.0.1\bin\javac A.java instead of simple javac A.java. The CLASSPATH variable gives the location of the Library FilesFollowing are the steps to set Environment Variables in Java :
+Step1: Right Click on My Computer and select the properties.
+Click on Advanced system settings.
+Click on Environment Variables.
+Click on the new Button of User variables.
+Type PATH in the Variable name.
+Copy the path of the bin folder which is installed in the JDK folder.
+Paste Path of bin folder in Variable value and click on OK Button.
+In case you already have a PATH variable created in your PC, edit the PATH variable to
+
+PATH = <JDK installation directory>\bin;%PATH%;
+You can follow a similar process to set CLASSPATH.
+Click on the OK button
+
+
+Go to the command prompt and type javac commands.
+
+If you see a screen like below, Java is installed.
+
+
+
+ECLIPSE ---
+
+Download and Install Eclipse to Run Java
+Following is a step by step guide to download and install Eclipse IDE:
+
+Step1: Open your browser and type https://www.eclipse.org/
+Step2: Click on the Download button.
+Step3: Click on the “Download 64-bit” button
+Step4: Click on the “Download” button
+
+Install Eclipse.
+
+Click on “downloads” in Windows file explorer.
+Click on the “eclipse-inst-win64.exe” file.
+Click on “Run as administrator”
+Click on “Eclipse IDE for Java Developers”
+Click on the “INSTALL” button
+Click on the “LAUNCH” button
+Browse the workspace of your choice and click on the “Launch” button.
+Click on the “Create a new Java project” link. And your Eclipse IDE is ready to use.
+

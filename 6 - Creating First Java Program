@@ -1,6 +1,6 @@
 
 Creating First Java Program
-
+------------------------------------------------------------------
 public class FirstProgram
 {
     Public static void main(String args[])
@@ -8,7 +8,6 @@ public class FirstProgram
         System.out.println(“Hello World”);
     }   //End of Main
  }      //End of class
-
 
 Output:=====>>>>> Hello World
 ------------------------------------------------------------------
